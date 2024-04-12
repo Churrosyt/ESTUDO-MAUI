@@ -5,7 +5,7 @@
         public App()
         {
             InitializeComponent();
-            MainPage = new NavigationPage(new LoginGrid());
+            MainPage = new NavigationPage(new TelaLogin50());
         }
     }
 }

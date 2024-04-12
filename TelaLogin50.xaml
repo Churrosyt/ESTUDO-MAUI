@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiDemo.TelaLogin50"
+             Title="TelaLogin50">
+    <Grid RowDefinitions="*, *"
+      ColumnDefinitions="*"
+      >
+
+        <BoxView Grid.Row="0" Grid.Column="0" BackgroundColor="White" Color="LightBlue"   CornerRadius="0, 0, 100, 100"/>
+
+        <Label Grid.Row="0" Grid.Column="0" Text="Tela de Login" FontSize="Large" HorizontalOptions="Center" Margin="0,10,0,0" />
+
+        <Image Grid.Row="0" Grid.Column="0" Source="dotnet_bot.png"/>
+
+        <AbsoluteLayout>
+            <Button Text="Entrar" FontSize="Large" AbsoluteLayout.LayoutFlags="PositionProportional"  AbsoluteLayout.LayoutBounds="0.5,1.08"/>
+        </AbsoluteLayout>
+
+
+    </Grid>
+</ContentPage>
